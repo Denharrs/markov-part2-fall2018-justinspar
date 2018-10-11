@@ -1,0 +1,27 @@
+This is the analysis for Markov Part 2, Fall 2018
+
+Include your name and net id here. Answer the questions from the assignment 
+that are reproduced below
+
+(1) Determine (from running Benchmark.java) how long it takes for 
+BaseMarkov to generate 2,000, 4,000, 8,000, 16,000, and 32,000 
+random characters using the default file and an order 5 Markov Model. 
+Include these timings in your report. 
+The program also generates 4,096 characters using texts that increase in 
+size from 496,768 characters to 4,967,680 characters (10 times the number).  
+Do you the timings support the O(NT) analysis for BaseMarkov?
+
+
+
+(2) Determine (from running Benchmark.java) how long it takes for 
+EfficientMarkov to generate 2,000, 4,000, 8,000, 16,000, and 32,000 
+random characters using the default file and an order 5 Markov Model. 
+Include these timings in your report. 
+The program also generates 4,096 characters using texts that increase in 
+size from 496,768 characters to 4,967,680 characters (10 times the number).  
+Do you the timings support the O(N+T) analysis for EfficientMarkov?
+
+(3)The tests in the class Benchmark use an order-5 Markov Model. 
+Run tests that you think are appropriate to determine if the order of the 
+Markov Model has a significant impact on the running time for BaseMarkov. 
+Explain your reasoning.
