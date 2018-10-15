@@ -119,5 +119,4 @@ public class BaseWordMarkov implements MarkovInterface<WordGram> {
 		myOrder = order;
 		return old;
 	}
-
 }
